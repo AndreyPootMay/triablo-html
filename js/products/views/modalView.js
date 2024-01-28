@@ -44,7 +44,7 @@ define(['backbone', 'velocity', 'waitImg'], function(Backbone){
 						'</div>',
 						'<div class="add-to-cart-btn">',
 							'<span class="theme-bg-c button" data-target="<%= cid %>">',
-								'Add to cart',
+								'Añadir al carrito',
 								'<span class="added">',
 									'<svg class="ok-sign" enable-background="new 0 0 24 24" version="1.0" viewBox="0 0 24 24" xml:space="preserve">',
 									    '<polyline points="20,6 9,17 4,12" class="check-mark"/>',
@@ -59,10 +59,10 @@ define(['backbone', 'velocity', 'waitImg'], function(Backbone){
 
 		initialize: function () {
 			var that = this;
-			
+
 			var templateData = _.extend(that.model.toJSON(), { cid: that.model.cid });
 			that.$el.append(that.template(templateData));
-			
+
 
 			$('.button', that.$el).click(function () {
 				$(window).trigger('addToCart', $(this).data('target'));
@@ -88,7 +88,7 @@ define(['backbone', 'velocity', 'waitImg'], function(Backbone){
 
 			$('.currency', that.$el).html($('body').data('currency'));
 
-			
+
 		},
 
 		render: function () {

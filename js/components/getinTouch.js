@@ -65,33 +65,6 @@ define(['jquery', 'bPopup', 'velocity', 'velocityUi'], function($){
 		},
 
 		sendForm: function(thisForm) {
-			    var url = "sendmail.php";
-
-			    $.ajax({
-					type: "POST",
-					url: url,
-					data: thisForm.serialize(), // serializes the form's elements.
-					success: function(){
-						$('input', thisForm).each(function(){
-							$('.required', thisForm).val('');
-						});
-
-						$('.products-form').trigger('sent');
-
-						var onOpen = function() {
-							$('.form-popup-block').bPopup().close();
-						};
-						
-						if (thisForm.parent().hasClass('products-form-block')) {
-							$(window).trigger('orderSent');
-						} else {
-							GetinTouch.bindPopup(GetinTouch.data.succes);
-						}
-
-						
-					}
-				});
-				
 		    return false;
 		},
 

@@ -1603,7 +1603,7 @@ nav {
   padding-right: 10px;
 }
 .order-list-block .order-list:empty:before {
-  content: "It's empty here ...";
+  content: "Está vacío aquí ...";
   display: block;
   font-size: 14px;
   color: #353535;
@@ -11663,3 +11663,7 @@ input.error {
   display: none !important;
 }
 /*-----  End of Media query and states(hover, active..) styles  ------*/
+
+.bg-md {
+  background-color: #FAAF25;
+}
