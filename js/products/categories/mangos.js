@@ -4,7 +4,7 @@ define([], function(){
     return {
         name: "Mangos",
         oneRow: false,
-		imagesPath: "/images/product_gallery/",
+		imagesPath: "images/product_gallery/",
 		addCodePath: false,
         items: [
             {
