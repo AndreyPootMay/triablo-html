@@ -16,7 +16,7 @@ define(['backbone'], function(Backbone){
 				'</span>',
 				'<% } %>',
 
-				'<div class="thumbnail"><img src="<%= path %><%= thumb %>" alt=""></div>',
+				'<div class="thumbnail"><img class="catalog-img" src="<%= path %><%= thumb %>" alt="<%= label.text %>" width="290px" height="370px"></div>',
 				'<div class="prod-hover-view">',
 					'<ul class="hover-controls">',
 						'<li class="view-product-gallery js-view-product" data-target="<%= cid %>">',
@@ -47,7 +47,7 @@ define(['backbone'], function(Backbone){
 
 		initialize: function () {
 			var that = this;
-			
+
 			var templateData = _.extend(that.model.toJSON(), { cid: that.model.cid });
 			that.$el.append(that.template(templateData));
 

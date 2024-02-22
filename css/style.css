@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -705,7 +706,7 @@ nav {
 }
 .added-products .shopping-cart:after {
   display: block;
-  content: '';
+  content: "";
   height: 32px;
   width: 1px;
   background-color: #ececec;
@@ -807,11 +808,11 @@ nav {
   font-weight: 100;
   color: #353535;
   cursor: pointer;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
 }
 .category-list .select .value {
   display: none;
@@ -953,13 +954,13 @@ nav {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.7);
-  content: '';
+  content: "";
   opacity: 0;
-  -webkit-transition: opacity .25s;
-  -moz-transition: opacity .25s;
-  -ms-transition: opacity .25s;
-  -o-transition: opacity .25s;
-  transition: opacity .25s;
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -ms-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
 }
 .prod-item .prod-hover-view .hover-controls {
   text-align: center;
@@ -989,17 +990,17 @@ nav {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   font-variant: normal;
   text-transform: none;
   line-height: 1em;
-  margin-left: .2em;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
+  margin-left: 0.2em;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
 }
 .prod-item .prod-hover-view .hover-controls .add-product-code {
   position: relative;
@@ -1054,10 +1055,10 @@ nav {
   font-size: 18px;
 }
 .prod-item .prod-hover-view .hover-controls .view-product-gallery span:before {
-  content: '\E800';
+  content: "\E800";
 }
 .prod-item .prod-hover-view .hover-controls .add-product-code span:before {
-  content: '\e801';
+  content: "\e801";
 }
 .prod-item .prod-hover-view .hover-controls li {
   margin: 0 10px;
@@ -1093,11 +1094,11 @@ nav {
   color: #fff;
 }
 .prod-item .prod-hover-view .hover-controls li.add-product-code {
-  -webkit-transition-delay: .1s;
-  -moz-transition-delay: .1s;
-  -ms-transition-delay: .1s;
-  -o-transition-delay: .1s;
-  transition-delay: .1s;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -ms-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 .prod-item .prod-hover-view .prod-hover-info {
   font-size: 12px;
@@ -1116,7 +1117,7 @@ nav {
   -moz-transition: -moz-transform 0.35s, opacity 0.35s;
   -ms-transition: -ms-transform 0.35s, opacity 0.35s;
   -o-transition: -o-transform 0.35s, opacity 0.35s;
-  transition: transform .35s, opacity .35s;
+  transition: transform 0.35s, opacity 0.35s;
 }
 .prod-item .prod-hover-view .prod-hover-info .prod-detail {
   color: #353535;
@@ -1207,7 +1208,7 @@ nav {
 }
 .gen-product-info:after {
   display: block;
-  content: '';
+  content: "";
   clear: both;
 }
 .gen-product-info .prod-name {
@@ -1267,7 +1268,7 @@ nav {
 }
 .gen-product-info .prod-price:after {
   display: block;
-  content: '';
+  content: "";
   height: 100%;
   width: 1px;
   background-color: #dcdcdc;
@@ -1285,7 +1286,7 @@ nav {
 }
 .gen-product-info .prod-price .old-price:after {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 1px;
@@ -1343,7 +1344,7 @@ nav {
   display: inline-block;
   font-size: 17px;
   cursor: default;
-  color: #C8C8C8;
+  color: #c8c8c8;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
@@ -1467,10 +1468,10 @@ nav {
 }
 .form-fields .form-hint {
   display: none;
-  color: #8F8F8F;
+  color: #8f8f8f;
   position: absolute;
   width: 100%;
-  background: #FFFFFF;
+  background: #ffffff;
   font-size: 12px;
   line-height: 16px;
   z-index: 2;
@@ -1495,7 +1496,7 @@ nav {
 .form-fields .form-hint:before {
   z-index: -1;
   display: block;
-  content: '';
+  content: "";
   width: 14px;
   height: 14px;
   position: absolute;
@@ -1508,7 +1509,7 @@ nav {
 }
 .form-fields .form-hint:after {
   display: block;
-  content: '';
+  content: "";
   width: 14px;
   height: 30px;
   background-color: #fff;
@@ -1524,7 +1525,7 @@ nav {
 }
 .form-fields:after {
   display: block;
-  content: '';
+  content: "";
   clear: both;
 }
 .form-fields .fillable-field {
@@ -1577,7 +1578,7 @@ nav {
 }
 .order-list-block .order-list-container:after {
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   height: 1px;
   background-color: #e4e4e4;
@@ -1617,7 +1618,7 @@ nav {
 }
 .order-list-block .order-item:after {
   display: block;
-  content: '';
+  content: "";
   clear: both;
 }
 .order-list-block .order-item .order-name {
@@ -1643,11 +1644,11 @@ nav {
   font-size: 14px;
   color: #d4d4d4;
   cursor: pointer;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
 }
 .order-list-block .order-price {
   float: right;
@@ -1764,7 +1765,7 @@ nav {
 }
 .product-details-modal .close-details:after,
 .product-details-modal .close-details:before {
-  content: '';
+  content: "";
   display: block;
   width: 24px;
   height: 1px;
@@ -1811,7 +1812,7 @@ nav {
 }
 .product-details-modal .old-price:after {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   top: 45%;
   left: 0;
@@ -1847,7 +1848,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: #1DC97A;
+  background-color: #1dc97a;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1906,15 +1907,15 @@ nav {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-  -ms-transition: opacity .25s ease;
-  -o-transition: opacity .25s ease;
-  transition: opacity .25s ease;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
 }
 .product-details-modal .owl-nav div:after,
 .product-details-modal .owl-nav div:before {
-  content: '';
+  content: "";
   display: block;
   height: 1px;
   width: 10px;
@@ -2028,6 +2029,11 @@ nav {
     right: 18px;
   }
 }
+.catalog-img {
+  width: 290px !important;
+  height: 370px !important;
+  object-fit: cover;
+}
 /*-----  End of Product details popup  ------*/
 /*==========  Partners carousel styles  ==========*/
 .partners-carousel {
@@ -2090,7 +2096,7 @@ nav {
   -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
   -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
   -o-transition: opacity 0.5s ease, -o-transform 0.5s ease;
-  transition: opacity .5s ease, transform .5s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .partners-carousel .partners-item:after,
 .partners-carousel .partners-item:before {
@@ -2411,11 +2417,11 @@ nav {
   margin-bottom: 28px;
   color: #9C9C9C;
   position: relative;
-  -webkit-transition: color .5s ease;
-  -moz-transition: color .5s ease;
-  -ms-transition: color .5s ease;
-  -o-transition: color .5s ease;
-  transition: color .5s ease;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
 }
 .stats-in-number .fact-icon i:before {
   margin-left: -2px;
@@ -2552,11 +2558,11 @@ nav {
 }
 .get-in-touch .socials-list .fa {
   color: #383838;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
 }
 .get-in-touch .socials-list a {
   letter-spacing: normal;
@@ -2606,31 +2612,31 @@ nav {
 @-webkit-keyframes scale {
   0% {
     -webkit-filter: blur(0);
-    opacity: .5;
+    opacity: 0.5;
   }
   100% {
     -webkit-filter: blur(1px);
-    opacity: .1;
+    opacity: 0.1;
   }
 }
 @-moz-keyframes scale {
   0% {
     -moz-filter: blur(0);
-    opacity: .5;
+    opacity: 0.5;
   }
   100% {
     -moz-filter: blur(1px);
-    opacity: .1;
+    opacity: 0.1;
   }
 }
 @keyframes scale {
   0% {
     filter: blur(0);
-    opacity: .5;
+    opacity: 0.5;
   }
   100% {
     filter: blur(1px);
-    opacity: .1;
+    opacity: 0.1;
   }
 }
 .toggle-view-btn {
@@ -2879,11 +2885,11 @@ nav {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  -webkit-animation: reveal .5s ease 1;
-  -moz-animation: reveal .5s ease 1;
-  -ms-animation: reveal .5s ease 1;
-  -o-animation: reveal .5s ease 1;
-  animation: reveal .5s ease 1;
+  -webkit-animation: reveal 0.5s ease 1;
+  -moz-animation: reveal 0.5s ease 1;
+  -ms-animation: reveal 0.5s ease 1;
+  -o-animation: reveal 0.5s ease 1;
+  animation: reveal 0.5s ease 1;
 }
 .preloader-block #Layer_1 {
   width: auto;
@@ -3023,202 +3029,202 @@ nav {
 }
 @-webkit-keyframes colorChange {
   0% {
-    fill: #52d2e0;
+    fill: hsl(186, 70%, 60%);
   }
   20% {
-    fill: #73e052;
+    fill: hsl(106, 70%, 60%);
   }
   40% {
-    fill: #7f52e0;
+    fill: hsl(259, 70%, 60%);
   }
   60% {
-    fill: #e05252;
+    fill: hsl(0, 70%, 60%);
   }
   80% {
-    fill: #e0ae52;
+    fill: hsl(39, 70%, 60%);
   }
   100% {
-    fill: #e05288;
+    fill: hsl(337, 70%, 60%);
   }
 }
 @-moz-keyframes colorChange {
   0% {
-    fill: #52d2e0;
+    fill: hsl(186, 70%, 60%);
   }
   20% {
-    fill: #73e052;
+    fill: hsl(106, 70%, 60%);
   }
   40% {
-    fill: #7f52e0;
+    fill: hsl(259, 70%, 60%);
   }
   60% {
-    fill: #e05252;
+    fill: hsl(0, 70%, 60%);
   }
   80% {
-    fill: #e0ae52;
+    fill: hsl(39, 70%, 60%);
   }
   100% {
-    fill: #e05288;
+    fill: hsl(337, 70%, 60%);
   }
 }
 @-ms-keyframes colorChange {
   0% {
-    fill: #52d2e0;
+    fill: hsl(186, 70%, 60%);
   }
   20% {
-    fill: #73e052;
+    fill: hsl(106, 70%, 60%);
   }
   40% {
-    fill: #7f52e0;
+    fill: hsl(259, 70%, 60%);
   }
   60% {
-    fill: #e05252;
+    fill: hsl(0, 70%, 60%);
   }
   80% {
-    fill: #e0ae52;
+    fill: hsl(39, 70%, 60%);
   }
   100% {
-    fill: #e05288;
+    fill: hsl(337, 70%, 60%);
   }
 }
 @-o-keyframes colorChange {
   0% {
-    fill: #52d2e0;
+    fill: hsl(186, 70%, 60%);
   }
   20% {
-    fill: #73e052;
+    fill: hsl(106, 70%, 60%);
   }
   40% {
-    fill: #7f52e0;
+    fill: hsl(259, 70%, 60%);
   }
   60% {
-    fill: #e05252;
+    fill: hsl(0, 70%, 60%);
   }
   80% {
-    fill: #e0ae52;
+    fill: hsl(39, 70%, 60%);
   }
   100% {
-    fill: #e05288;
+    fill: hsl(337, 70%, 60%);
   }
 }
 @keyframes colorChange {
   0% {
-    fill: #52d2e0;
+    fill: hsl(186, 70%, 60%);
   }
   20% {
-    fill: #73e052;
+    fill: hsl(106, 70%, 60%);
   }
   40% {
-    fill: #7f52e0;
+    fill: hsl(259, 70%, 60%);
   }
   60% {
-    fill: #e05252;
+    fill: hsl(0, 70%, 60%);
   }
   80% {
-    fill: #e0ae52;
+    fill: hsl(39, 70%, 60%);
   }
   100% {
-    fill: #e05288;
+    fill: hsl(337, 70%, 60%);
   }
 }
 @-webkit-keyframes stroke-color {
   0% {
-    stroke: #52d2e0;
+    stroke: hsl(186, 70%, 60%);
   }
   20% {
-    stroke: #73e052;
+    stroke: hsl(106, 70%, 60%);
   }
   40% {
-    stroke: #7f52e0;
+    stroke: hsl(259, 70%, 60%);
   }
   60% {
-    stroke: #e05252;
+    stroke: hsl(0, 70%, 60%);
   }
   80% {
-    stroke: #e0ae52;
+    stroke: hsl(39, 70%, 60%);
   }
   100% {
-    stroke: #e05288;
+    stroke: hsl(337, 70%, 60%);
   }
 }
 @-moz-keyframes stroke-color {
   0% {
-    stroke: #52d2e0;
+    stroke: hsl(186, 70%, 60%);
   }
   20% {
-    stroke: #73e052;
+    stroke: hsl(106, 70%, 60%);
   }
   40% {
-    stroke: #7f52e0;
+    stroke: hsl(259, 70%, 60%);
   }
   60% {
-    stroke: #e05252;
+    stroke: hsl(0, 70%, 60%);
   }
   80% {
-    stroke: #e0ae52;
+    stroke: hsl(39, 70%, 60%);
   }
   100% {
-    stroke: #e05288;
+    stroke: hsl(337, 70%, 60%);
   }
 }
 @-ms-keyframes stroke-color {
   0% {
-    stroke: #52d2e0;
+    stroke: hsl(186, 70%, 60%);
   }
   20% {
-    stroke: #73e052;
+    stroke: hsl(106, 70%, 60%);
   }
   40% {
-    stroke: #7f52e0;
+    stroke: hsl(259, 70%, 60%);
   }
   60% {
-    stroke: #e05252;
+    stroke: hsl(0, 70%, 60%);
   }
   80% {
-    stroke: #e0ae52;
+    stroke: hsl(39, 70%, 60%);
   }
   100% {
-    stroke: #e05288;
+    stroke: hsl(337, 70%, 60%);
   }
 }
 @-o-keyframes stroke-color {
   0% {
-    stroke: #52d2e0;
+    stroke: hsl(186, 70%, 60%);
   }
   20% {
-    stroke: #73e052;
+    stroke: hsl(106, 70%, 60%);
   }
   40% {
-    stroke: #7f52e0;
+    stroke: hsl(259, 70%, 60%);
   }
   60% {
-    stroke: #e05252;
+    stroke: hsl(0, 70%, 60%);
   }
   80% {
-    stroke: #e0ae52;
+    stroke: hsl(39, 70%, 60%);
   }
   100% {
-    stroke: #e05288;
+    stroke: hsl(337, 70%, 60%);
   }
 }
 @keyframes stroke-color {
   0% {
-    stroke: #52d2e0;
+    stroke: hsl(186, 70%, 60%);
   }
   20% {
-    stroke: #73e052;
+    stroke: hsl(106, 70%, 60%);
   }
   40% {
-    stroke: #7f52e0;
+    stroke: hsl(259, 70%, 60%);
   }
   60% {
-    stroke: #e05252;
+    stroke: hsl(0, 70%, 60%);
   }
   80% {
-    stroke: #e0ae52;
+    stroke: hsl(39, 70%, 60%);
   }
   100% {
-    stroke: #e05288;
+    stroke: hsl(337, 70%, 60%);
   }
 }
 @-webkit-keyframes fill {
@@ -6221,11 +6227,11 @@ Copyright (c) 2013 Daniel Eden
   top: 25px;
   left: 50%;
   z-index: 4;
-  -webkit-transition: transform .4s;
-  -moz-transition: transform .4s;
-  -ms-transition: transform .4s;
-  -o-transition: transform .4s;
-  transition: transform .4s;
+  -webkit-transition: transform 0.4s;
+  -moz-transition: transform 0.4s;
+  -ms-transition: transform 0.4s;
+  -o-transition: transform 0.4s;
+  transition: transform 0.4s;
 }
 .testimonials-list.owl-carousel .owl-nav .owl-prev {
   background-position: 0 -27px;
@@ -6270,11 +6276,11 @@ Copyright (c) 2013 Daniel Eden
   width: 100%;
   height: 100%;
   z-index: 5;
-  -webkit-transition: opacity .25s;
-  -moz-transition: opacity .25s;
-  -ms-transition: opacity .25s;
-  -o-transition: opacity .25s;
-  transition: opacity .25s;
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -ms-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
 }
 .video-section .video-play-btn.playing {
   opacity: 0;
@@ -6286,8 +6292,8 @@ Copyright (c) 2013 Daniel Eden
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -60px;
-  margin-left: -60px;
+  margin-top: -120px/2;
+  margin-left: -120px/2;
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px #fff;
   text-align: center;
@@ -6328,7 +6334,7 @@ Copyright (c) 2013 Daniel Eden
   box-shadow: inset 0 0 0 2px #fff;
 }
 .video-section .video-play-btn:hover .play-icon-container {
-  box-shadow: inset 0 0 0 60px #ffffff;
+  box-shadow: inset 0 0 0 120px/2 #fff;
 }
 .video-section .video-play-btn:hover .play-icon-container:after {
   box-shadow: inset 0 0 0 9px #fff;
@@ -6606,7 +6612,7 @@ Copyright (c) 2013 Daniel Eden
   -moz-transition: -moz-transform 0.25s;
   -ms-transition: -ms-transform 0.25s;
   -o-transition: -o-transform 0.25s;
-  transition: transform .25s;
+  transition: transform 0.25s;
   -webkit-transform: translate3D(0, -100%, 0);
   -moz-transform: translate3D(0, -100%, 0);
   -ms-transform: translate3D(0, -100%, 0);
@@ -6775,11 +6781,11 @@ Copyright (c) 2013 Daniel Eden
   z-index: 4;
   padding: 7px 11px;
   background: rgba(0, 0, 0, 0.3);
-  -webkit-transition: top .5s ease, bottom .5s ease;
-  -moz-transition: top .5s ease, bottom .5s ease;
-  -ms-transition: top .5s ease, bottom .5s ease;
-  -o-transition: top .5s ease, bottom .5s ease;
-  transition: top .5s ease, bottom .5s ease;
+  -webkit-transition: top 0.5s ease, bottom 0.5s ease;
+  -moz-transition: top 0.5s ease, bottom 0.5s ease;
+  -ms-transition: top 0.5s ease, bottom 0.5s ease;
+  -o-transition: top 0.5s ease, bottom 0.5s ease;
+  transition: top 0.5s ease, bottom 0.5s ease;
 }
 .news-item .news-image-block .news-images-list .owl-nav div:after {
   display: block;
@@ -6852,7 +6858,7 @@ Copyright (c) 2013 Daniel Eden
   -moz-transition: -moz-transform 0.5s ease;
   -ms-transition: -ms-transform 0.5s ease;
   -o-transition: -o-transform 0.5s ease;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 .news-item .news-image-block .hover-parent a.top-block {
   left: 50%;
@@ -6933,11 +6939,11 @@ Copyright (c) 2013 Daniel Eden
   margin-bottom: 10px;
   color: #353535;
   font-weight: 100;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
 }
 .news-item .main-news-block .main-news {
   font-size: 13px;
@@ -6958,7 +6964,7 @@ Copyright (c) 2013 Daniel Eden
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-/*
+/* 
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
@@ -7015,7 +7021,7 @@ Copyright (c) 2013 Daniel Eden
     opacity: 1;
   }
 }
-/*
+/* 
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -7025,7 +7031,7 @@ Copyright (c) 2013 Daniel Eden
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
 }
-/*
+/* 
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -7117,7 +7123,7 @@ Copyright (c) 2013 Daniel Eden
 .no-js .owl-carousel {
   display: block;
 }
-/*
+/* 
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -7131,7 +7137,7 @@ Copyright (c) 2013 Daniel Eden
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
 }
-/*
+/* 
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
@@ -7187,7 +7193,6 @@ Copyright (c) 2013 Daniel Eden
   position: relative;
   z-index: 1;
 }
-@charset "UTF-8";
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -7739,8 +7744,8 @@ Copyright (c) 2014 Daniel Eden
 .bounceIn {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
 }
 @-webkit-keyframes bounceInDown {
   0%,
@@ -8074,8 +8079,8 @@ Copyright (c) 2014 Daniel Eden
 .bounceOut {
   -webkit-animation-name: bounceOut;
   animation-name: bounceOut;
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
 }
 @-webkit-keyframes bounceOutDown {
   20% {
@@ -8949,8 +8954,8 @@ Copyright (c) 2014 Daniel Eden
 .flipOutX {
   -webkit-animation-name: flipOutX;
   animation-name: flipOutX;
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
   -webkit-backface-visibility: visible !important;
   -ms-backface-visibility: visible !important;
   backface-visibility: visible !important;
@@ -8996,8 +9001,8 @@ Copyright (c) 2014 Daniel Eden
   backface-visibility: visible !important;
   -webkit-animation-name: flipOutY;
   animation-name: flipOutY;
-  -webkit-animation-duration: .75s;
-  animation-duration: .75s;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
 }
 @-webkit-keyframes lightSpeedIn {
   0% {
@@ -10013,18 +10018,18 @@ Copyright (c) 2014 Daniel Eden
 Plugin URI: http://manos.malihu.gr/jquery-custom-content-scroller
 */
 /*
-CONTENTS:
-	1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited).
-	2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar.
+CONTENTS: 
+	1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited). 
+	2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar. 
 	3. HORIZONTAL SCROLLBAR - Positioning and dimensions of horizontal scrollbar.
-	4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars.
-	5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars.
-	6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
+	4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars. 
+	5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars. 
+	6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS 
 		6.1 THEMES - Scrollbar colors, opacity, dimensions, backgrounds etc. via ready-to-use themes.
 */
-/*
+/* 
 ------------------------------------------------------------------------------------------------------------------------
-1. BASIC STYLE
+1. BASIC STYLE  
 ------------------------------------------------------------------------------------------------------------------------
 */
 .mCustomScrollbar {
@@ -10051,9 +10056,9 @@ CONTENTS:
   width: auto;
   height: auto;
 }
-/*
+/* 
 ------------------------------------------------------------------------------------------------------------------------
-2. VERTICAL SCROLLBAR
+2. VERTICAL SCROLLBAR 
 y-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
@@ -10159,9 +10164,9 @@ y-axis
 .mCSB_scrollTools .mCSB_buttonDown {
   bottom: 0;
 }
-/*
+/* 
 ------------------------------------------------------------------------------------------------------------------------
-3. HORIZONTAL SCROLLBAR
+3. HORIZONTAL SCROLLBAR 
 x-axis
 ------------------------------------------------------------------------------------------------------------------------
 */
@@ -10236,10 +10241,10 @@ x-axis
 .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
   right: 0;
 }
-/*
+/* 
 ------------------------------------------------------------------------------------------------------------------------
-4. VERTICAL AND HORIZONTAL SCROLLBARS
-yx-axis
+4. VERTICAL AND HORIZONTAL SCROLLBARS 
+yx-axis 
 ------------------------------------------------------------------------------------------------------------------------
 */
 .mCSB_container_wrapper {
@@ -10307,9 +10312,9 @@ yx-axis
 .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
   margin-bottom: 0;
 }
-/*
+/* 
 ------------------------------------------------------------------------------------------------------------------------
-5. TRANSITIONS
+5. TRANSITIONS  
 ------------------------------------------------------------------------------------------------------------------------
 */
 .mCSB_scrollTools,
@@ -10332,14 +10337,14 @@ yx-axis
   -o-transition: width 0.2s ease-out 0.2s, height 0.2s ease-out 0.2s, margin-left 0.2s ease-out 0.2s, margin-right 0.2s ease-out 0.2s, margin-top 0.2s ease-out 0.2s, margin-bottom 0.2s ease-out 0.2s, opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: width 0.2s ease-out 0.2s, height 0.2s ease-out 0.2s, margin-left 0.2s ease-out 0.2s, margin-right 0.2s ease-out 0.2s, margin-top 0.2s ease-out 0.2s, margin-bottom 0.2s ease-out 0.2s, opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
-/*
+/* 
 ------------------------------------------------------------------------------------------------------------------------
-6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS
+6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS  
 ------------------------------------------------------------------------------------------------------------------------
 */
-/*
+/* 
 	----------------------------------------
-	6.1 THEMES
+	6.1 THEMES 
 	----------------------------------------
 	*/
 /* default theme ("light") */
@@ -10396,15 +10401,15 @@ yx-axis
 }
 .mCSB_scrollTools .mCSB_buttonUp {
   background-position: 0 0;
-  /*
-		sprites locations
+  /* 
+		sprites locations 
 		light: 0 0, -16px 0, -32px 0, -48px 0, 0 -72px, -16px -72px, -32px -72px
 		dark: -80px 0, -96px 0, -112px 0, -128px 0, -80px -72px, -96px -72px, -112px -72px
 		*/
 }
 .mCSB_scrollTools .mCSB_buttonDown {
   background-position: 0 -20px;
-  /*
+  /* 
 		sprites locations
 		light: 0 -20px, -16px -20px, -32px -20px, -48px -20px, 0 -92px, -16px -92px, -32px -92px
 		dark: -80px -20px, -96px -20px, -112px -20px, -128px -20px, -80px -92px, -96px -92px, -112 -92px
@@ -10412,16 +10417,16 @@ yx-axis
 }
 .mCSB_scrollTools .mCSB_buttonLeft {
   background-position: 0 -40px;
-  /*
-		sprites locations
+  /* 
+		sprites locations 
 		light: 0 -40px, -20px -40px, -40px -40px, -60px -40px, 0 -112px, -20px -112px, -40px -112px
 		dark: -80px -40px, -100px -40px, -120px -40px, -140px -40px, -80px -112px, -100px -112px, -120px -112px
 		*/
 }
 .mCSB_scrollTools .mCSB_buttonRight {
   background-position: 0 -56px;
-  /*
-		sprites locations
+  /* 
+		sprites locations 
 		light: 0 -56px, -20px -56px, -40px -56px, -60px -56px, 0 -128px, -20px -128px, -40px -128px
 		dark: -80px -56px, -100px -56px, -120px -56px, -140px -56px, -80px -128px, -100px -128px, -120px -128px
 		*/
@@ -11417,7 +11422,7 @@ yx-axis
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -11427,7 +11432,7 @@ yx-axis
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Uncomment for 3D effect */
@@ -11663,7 +11668,3 @@ input.error {
   display: none !important;
 }
 /*-----  End of Media query and states(hover, active..) styles  ------*/
-
-.bg-md {
-  background-color: #FAAF25;
-}
